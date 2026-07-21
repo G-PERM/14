@@ -1,0 +1,1 @@
+let cartCount=0,cartTotal=0;function updateCart(t){cartCount++,cartTotal+=t,document.getElementById("cart-count").textContent=cartCount,document.getElementById("cart-total").textContent=cartTotal}document.getElementById("current-year").textContent=(new Date).getFullYear();
